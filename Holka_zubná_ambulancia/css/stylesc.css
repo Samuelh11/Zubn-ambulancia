@@ -1,0 +1,114 @@
+body{
+ 
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background: #9ACD32;
+    border-bottom: 1px solid #fff;
+    z-index: 9999;
+  }
+  nav .logo{
+    padding: 25px 20px;
+    height: 80px;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  nav ul{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  
+  }
+  nav ul li a{
+    line-height: 80px;
+    color: #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  a{
+    color: white;
+    text-decoration: none;
+    padding: 17px;
+  }
+  .hamburger {
+    display: inline;
+  }
+  a:hover{
+    background-color: grey;
+  }
+  
+  h2{
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 10px;
+  }
+  
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 4px;
+}
+
+table.center{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+  
+}
+
+
+
+ul{
+  line-height: 50px;
+  left: 30px;
+}
+
+footer{
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background-color:#9ACD32;
+  }
+  .row{
+  display:flex;
+  color: white;
+  
+  }
+
+  .row-d{
+    padding-left: 250px;
+   
+   }
+   .row-d h2{
+    padding-left: 0px;
+    padding-top: 5px;
+   }
+
+
+ .col-25{
+   padding-left: 40px;
+   
+ }
+ .col-25 h2{
+   padding-left: 40px;
+   padding-top: 5px;
+ }
+
+.copy{
+text-align: center;
+color: white;
+}
+
